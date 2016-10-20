@@ -2,8 +2,9 @@ package com.luo.service;
 
 import org.junit.Test;  
 import org.springframework.beans.factory.annotation.Autowired;  
+
 import com.luo.baseTest.SpringTestCase;  
-import com.luo.domain.User;
+import com.luo.model.User;
 
 public class UserServiceTest extends SpringTestCase {
 	

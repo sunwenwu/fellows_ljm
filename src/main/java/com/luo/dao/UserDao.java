@@ -1,6 +1,6 @@
 package com.luo.dao;
 
-import com.luo.domain.User;
+import com.luo.model.User;
 
 public interface UserDao {
 	

@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.luo.domain.User;
+import com.luo.model.User;
 import com.luo.service.UserService;
 
 @Controller  
