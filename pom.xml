@@ -8,7 +8,7 @@
 
 	<properties>
 		<!-- spring版本号 -->
-		<spring.version>3.2.8.RELEASE</spring.version>
+		<spring.version>4.3.2.RELEASE</spring.version>
 		<!-- junit版本号 -->
 		<junit.version>4.10</junit.version>
 		<!-- mybatis版本号 -->
@@ -104,7 +104,7 @@
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
-			<version>6.0</version>
+			<version>7.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<!-- 上传文件需要的包 -->
@@ -161,5 +161,18 @@
 				
 				
 	</dependencies>
+	
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+              <source>1.7</source>
+              <target>1.7</target>
+            </configuration>
+      </plugin>
+    </plugins>
+ </build>
 
 </project>
